@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASCII CAMERA</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- hidden canvas for processing -->
+  <canvas id="canvas" style="display:none;"></canvas>
+
+  <!-- selectable ASCII output -->
+  <div class="app">
+  <!-- ASCII area -->
+  <div class="main">
+    <pre id="asciiOutput"></pre>
+    <button id="pauseBtn">⏸ Pause</button>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3>Controls</h3>
+
+    <label>
+      Characters
+      <input id="charInput" type="text" value="       .,:;i1tfLCG08@" />
+    </label>
+
+    <label>
+      Font Size
+      <input id="fontSizeInput" type="number" value="10" min="4" max="30" />
+    </label>
+
+    <label>
+      Font Color
+      <input id="colorInput" type="color" value="#000000" />
+    </label>
+  </aside>
+</div>
+
+
+  <script src="/camera.js"></script>
+</body>
+</html>
