@@ -36,7 +36,7 @@ This project captures live webcam video, converts each frame into ASCII characte
 ---
 
 ## 📁 Project Structure
-
+```
 ascii-camera/
 │
 ├── public/
@@ -48,7 +48,7 @@ ascii-camera/
 │
 ├── server.js
 └── README.md
-
+```
 
 ---
 
