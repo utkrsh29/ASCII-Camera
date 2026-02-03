@@ -40,6 +40,7 @@ function applyAsciiStyles() {
   asciiOutput.style.fontSize = size + "px";
   asciiOutput.style.lineHeight = size + "px";
   asciiOutput.style.color = colorInput.value;
+  asciiOutput.style.fontFamily = "Consolas, monospace";
 }
 
 // CALL ONCE AT START
